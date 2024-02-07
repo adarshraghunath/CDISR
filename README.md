@@ -22,10 +22,10 @@ python sr_(xrm/sinogram).py -p train -c config/dtsr_(xrm/sinogram).json
 ### Test/Evaluation
 
 
-# Edit json to add pretrained model checkpoint path and run the evaluation 
+Edit json to add pretrained model checkpoint path and run the evaluation 
 python sr_(xrm/sinogram).py -p val -c config/dtsr_(xrm/sinogram).json  #change the config to add the checkpoint
 
-# Also run measurement_xrm/sinogram to compare with baseline method
+Also run measurement_xrm/sinogram to compare with baseline method
 python measurement_xrm/sinogram.py
 
 ```
